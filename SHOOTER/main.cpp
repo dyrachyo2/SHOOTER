@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 #include<conio.h>
 using namespace std;
 //#define SHOOTER
@@ -14,27 +14,27 @@ void main()
 
 		if (key == 'w' || key == 'W')
 		{
-			cout << "Âïåðåä" << endl;
+			cout << "Ð’Ð¿ÐµÑ€ÐµÐ´" << endl;
 		}
 		else if (key == 's' || key == 'S')
 		{
-			cout << "Íàçàä" << endl;
+			cout << "ÐÐ°Ð·Ð°Ð´" << endl;
 		}
 		else if (key == 'a' || key == 'A')
 		{
-			cout << "Âëåâî" << endl;
+			cout << "Ð’Ð»ÐµÐ²Ð¾" << endl;
 		}
 		else if (key == 'd' || key == 'D')
 		{
-			cout << "Âïðàâî" << endl;
+			cout << "Ð’Ð¿Ñ€Ð°Ð²Ð¾" << endl;
 		}
 		else if ((int)key != 13)
 		{
-			cout << "Ïðûæîê" << endl;
+			cout << "ÐŸÑ€Ñ‹Ð¶Ð¾Ðº" << endl;
 		}
 		else if ((int)key != 32)
 		{
-			cout << "Îãîíü" << endl;
+			cout << "ÐžÐ³Ð¾Ð½ÑŒ" << endl;
 		}
 
 	} while (key != 27);
